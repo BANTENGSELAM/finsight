@@ -1,59 +1,309 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# FinSight
 
-## About Laravel
+### Adaptive Personal Finance Management System
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**Understand where your money goes.**
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+A modern web-based personal finance management application that helps users track income, expenses, subscriptions, and financial habits through a clean interface and an adaptive user experience.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+![Laravel](https://img.shields.io/badge/Laravel-12-red?style=for-the-badge&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-UI-38BDF8?style=for-the-badge&logo=tailwindcss)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-Frontend-8BC0D0?style=for-the-badge&logo=alpinedotjs)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+</div>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+# About FinSight
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+FinSight is a personal finance management application designed to help users understand, control, and improve their financial habits.
 
-### Premium Partners
+Unlike traditional finance applications that focus only on recording transactions, FinSight focuses on providing meaningful financial insights while keeping the user experience simple, fast, and accessible.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+The project is also developed as a **Software Engineering Case Study**, demonstrating the complete software development lifecycle from requirement analysis to implementation and documentation.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+# Problem Statement
 
-## Code of Conduct
+Many people know **how much they earn**, but they do not know:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Where their money goes
+- Which subscriptions are wasting money
+- How much they spend every month
+- Whether their spending habits are improving
 
-## Security Vulnerabilities
+FinSight aims to solve these everyday financial problems with an adaptive and user-friendly approach.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+# Key Features
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Authentication
+
+- Login
+- Register
+- Secure Authentication
+
+---
+
+## Hybrid Workspace
+
+- Guest Mode (Local Storage)
+- Cloud Mode (Database)
+- Smooth onboarding experience
+
+---
+
+## Adaptive User
+
+Choose your profile:
+
+- Student
+- Employee
+- General User
+
+The application adapts to the user's needs.
+
+---
+
+## Income Management
+
+- Create Income
+- Update Income
+- Delete Income
+- Search
+- Pagination
+- Responsive UI
+- Form Validation
+
+---
+
+## Expense Management
+
+Currently under development.
+
+---
+
+## Planned Features
+
+- Dashboard Analytics
+- Subscription Tracker
+- Spending Insights
+- Financial Health Score
+- AI Transaction Entry
+- Monthly Reports
+- Export PDF
+- Export Excel
+
+---
+
+# Software Architecture
+
+FinSight follows a clean layered architecture.
+
+```
+Browser
+     │
+Blade View
+     │
+Routes
+     │
+Controllers
+     │
+Service Layer
+     │
+Models
+     │
+MySQL Database
+```
+
+### Design Principles
+
+- MVC Architecture
+- Service Layer Pattern
+- SOLID Principles
+- DRY
+- KISS
+- Clean Code
+- Mobile First Design
+
+---
+
+# Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| Backend | Laravel 12 |
+| Language | PHP 8.2+ |
+| Frontend | Blade |
+| Styling | Tailwind CSS |
+| JavaScript | Alpine.js |
+| Database | MySQL |
+| Development | Laragon |
+| Version Control | Git + GitHub |
+
+---
+
+# Project Structure
+
+```
+FinSight/
+│
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+├── routes/
+├── docs/
+│
+│   ├── PROJECT_MEMORY.md
+│   ├── CHANGELOG.md
+│   ├── ARCHITECTURE_DECISIONS.md
+│   └── SPRINTS/
+│
+├── tests/
+│
+└── README.md
+```
+
+---
+
+# Documentation
+
+The project is documented as a complete Software Engineering case study.
+
+| Document | Description |
+|----------|-------------|
+| PROJECT_MEMORY.md | Single Source of Truth |
+| CHANGELOG.md | Project history |
+| ARCHITECTURE_DECISIONS.md | Architecture Decision Records |
+| SPRINTS | Sprint documentation |
+
+---
+
+# Development Roadmap
+
+| Sprint | Status |
+|---------|--------|
+| Sprint 0 | Completed |
+| Sprint 1 | Completed |
+| Sprint 2 | Completed |
+| Sprint 3 | In Progress |
+| Sprint 4 | Planned |
+| Sprint 5 | Planned |
+| Sprint 6 | Planned |
+| Sprint 7 | Planned |
+| Sprint 8 | Planned |
+| Sprint 9 | Planned |
+
+---
+
+# Current Project Status
+
+| Category | Status |
+|----------|--------|
+| Planning | Completed |
+| Architecture | Completed |
+| Documentation | Completed |
+| Authentication | Completed |
+| Income Module | Completed |
+| Expense Module | In Progress |
+| Dashboard | Planned |
+| AI Features | Planned |
+
+---
+
+# Engineering Highlights
+
+This project demonstrates:
+
+- Requirement Engineering
+- Software Architecture
+- Database Design
+- MVC + Service Layer
+- Sprint-based Development
+- Continuous Documentation
+- Architecture Decision Records (ADR)
+- Responsive Web Design
+- Clean Code Practices
+
+---
+
+# Installation
+
+Clone repository
+
+```bash
+git clone <repository-url>
+```
+
+Enter project
+
+```bash
+cd finsight
+```
+
+Install dependencies
+
+```bash
+composer install
+```
+
+Copy environment
+
+```bash
+cp .env.example .env
+```
+
+Generate application key
+
+```bash
+php artisan key:generate
+```
+
+Configure database in `.env`
+
+Run migration
+
+```bash
+php artisan migrate
+```
+
+Start development server
+
+```bash
+php artisan serve
+```
+
+---
+
+# Contribution
+
+This project is currently developed as a personal portfolio and software engineering case study.
+
+Suggestions, improvements, and discussions are welcome.
+
+---
+
+# Author
+
+**BANTENGSELAM WITH HIS THOUGHT**
+
+Information Technology Student
+
+Developed as a portfolio project to demonstrate modern software engineering practices using Laravel.
+
+---
+
+# License
+
+This project is released for educational and portfolio purposes.
