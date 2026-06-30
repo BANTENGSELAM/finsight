@@ -87,13 +87,23 @@ The application adapts to the user's needs.
 
 ## Expense Management
 
-Currently under development.
+Completed.
+
+---
+
+## Dashboard Analytics
+
+- Financial Summary Cards
+- Income vs Expense Chart
+- Expense by Category Chart
+- Recent Transactions
+- Upcoming Subscriptions
+- Quick Actions
 
 ---
 
 ## Planned Features
 
-- Dashboard Analytics
 - Subscription Tracker
 - Spending Insights
 - Financial Health Score
@@ -197,9 +207,9 @@ The project is documented as a complete Software Engineering case study.
 | Sprint 0 | Completed |
 | Sprint 1 | Completed |
 | Sprint 2 | Completed |
-| Sprint 3 | In Progress |
-| Sprint 4 | Planned |
-| Sprint 5 | Planned |
+| Sprint 3 | Completed |
+| Sprint 4 | Completed |
+| Sprint 5 | In Progress |
 | Sprint 6 | Planned |
 | Sprint 7 | Planned |
 | Sprint 8 | Planned |
@@ -216,8 +226,9 @@ The project is documented as a complete Software Engineering case study.
 | Documentation | Completed |
 | Authentication | Completed |
 | Income Module | Completed |
-| Expense Module | In Progress |
-| Dashboard | Planned |
+| Expense Module | Completed |
+| Dashboard | Completed |
+| Subscriptions | Planned |
 | AI Features | Planned |
 
 ---

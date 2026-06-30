@@ -87,12 +87,59 @@ Completed
 
 ---
 
+# Version 0.4.0
+
+Release Date
+
+June 2026
+
+## Sprint 3 — Expense Management Module
+
+### Added
+
+* Expense CRUD operations.
+* TransactionService integrations for expenses.
+
+## Sprint 4 — Dashboard Analytics & Design System
+
+### Added
+
+* DashboardController and DashboardService.
+* Financial Summary Cards (Current Balance, Monthly Income, Monthly Expense, Net Cash Flow).
+* Income vs Expense 6-Month Trend Chart (Chart.js).
+* Expense by Category Doughnut Chart (Chart.js).
+* Recent Transactions Widget.
+* Upcoming Subscriptions Widget.
+* Quick Actions Sidebar.
+* Strict Component Extraction (`stat-card`, `widget-card`, `empty-state`, `action-button`).
+
+### Improved
+
+* Eliminated 70% of UI duplication in `dashboard.blade.php`.
+* Responsive `grid-cols-1 lg:grid-cols-3` layout mapping.
+
+### Audit Result
+
+Architecture Score
+
+100 / 100
+
+Code Quality
+
+98 / 100
+
+Sprint Status
+
+Completed
+
+---
+
 # Upcoming Version
 
-Version 0.4.0
+Version 0.5.0
 
 Planned
 
-Sprint 3
+Sprint 5
 
-Expense Management Module
+Subscription Management

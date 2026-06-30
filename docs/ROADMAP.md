@@ -4,9 +4,9 @@
 
 **Project Name:** FinSight
 
-**Current Version:** v0.3.0
+**Current Version:** v0.4.0
 
-**Current Sprint:** Sprint 3 (Hardening)
+**Current Sprint:** Sprint 5 (Subscription Management)
 
 **Status:** Active Development
 
@@ -45,12 +45,12 @@ Completed
 ### Expense Management
 
 Status:
-Completed (Hardening)
+Completed
 
 ### Dashboard Analytics
 
 Status:
-Next Sprint
+Completed
 
 ---
 
@@ -106,7 +106,10 @@ Foundation:
 100%
 
 Core Finance:
-60%
+100%
+
+Smart Finance:
+10%
 
 AI Features:
 0%
@@ -116,20 +119,18 @@ Testing:
 
 Overall Progress
 
-Approximately 35%
+Approximately 50%
 
 ---
 
 # Upcoming Sprint
 
-Sprint 4
+Sprint 5
 
-Dashboard Analytics
+Subscription Management
 
 Objectives:
 
-- Financial Summary Cards
-- Income vs Expense Charts
-- Monthly Overview
-- Recent Transactions
-- Quick Actions
+- Subscription CRUD
+- Renewal Tracking
+- Subscriptions Dashboard Integration
